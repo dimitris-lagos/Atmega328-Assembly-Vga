@@ -6,7 +6,9 @@
 ;
 
 
-;Second try to output vga color from attiny2313 with interrupts.It worked!
+;First try to output vga color from attiny2313 with interrupts.It worked!
+;Proof of concept, really old code! Don't use this!
+
 .org 0
 rjmp RESET ;reset 
 .org OC1Aaddr
